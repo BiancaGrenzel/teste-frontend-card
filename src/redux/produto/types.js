@@ -1,0 +1,1 @@
+export const BUSCAR_PRODUTOS = 'BUSCAR_PRODUTOS'

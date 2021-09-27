@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+  font-family: Inter, Arial;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+
+  width: 240px;
+  height: 48px;
+
+  background-color: #40b25c;
+  color: #ffffff;
+
+  border-style: none;
+}
+
+.button:hover {
+  background-color: #1c6c3e;
+}
+
+.adicionado {
+  font-family: Inter, Arial;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+
+  width: 240px;
+  height: 48px;
+
+  background-color: #a3f9b9;
+  color: #1c1c1c;
+
+  border-style: none;
+}
+
+.check{
+    width: 16px;
+    height: 11px;
+    margin-right: 16px;
+}

@@ -1,0 +1,126 @@
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+
+  width: 304px;
+  height: 568px;
+  padding: 32px;
+
+  background-color: #fff;
+
+  border-style: none;
+  border-color: none;
+  border-radius: 8px;
+}
+
+.card :hover {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.preco {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: -0.005em;
+  text-decoration-line: line-through;
+
+  color: #b5b5b6;
+  
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 4px !important;
+}
+
+.preco-promocional {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  letter-spacing: -0.005em;
+
+  color: #da4b4f;
+
+  margin-left: 0px !important;
+  margin-bottom: 4px !important;
+  margin-right: 0px !important;
+  margin-top: 4px !important;
+}
+
+.container-imagem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+img{
+    width: 92%;
+}
+
+.wishlist{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-left: 230px !important;
+    background: url(/src/assets/wishlist-default.png);
+}
+
+.wishlist:hover{
+    background: url(/src/assets/wishlist-default-hover.png);
+}
+
+.wishlist-active{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-left: 230px !important;
+    background: url(/src/assets/wishlist-active.png);
+}
+
+.wishlist-active:hover{
+    background: url(/src/assets/wishlist-active-hover.png);
+}
+
+h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #1c1c1c;
+
+  margin-bottom: 24px;
+}
+
+.texto {
+  display: flex;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  letter-spacing: -0.005em;
+
+  color: #848587;
+  
+  margin-left: 0px !important;
+  margin-bottom: 32px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+}
+
+.faturamento {
+  margin-top: 0px !important;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #1c1c1c;
+}
